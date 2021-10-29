@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversor de Moedas - Projeto 4º bimestre</h1>
+      <p><em>Sarah Kaline dos Santos Camargo Pacheco - 02TX</em></p>
+    </header>
+    <main>
+      <form>
+        <section class="seletor-moeda">
+          <label for="reais">Digite o valor em reais:</label>
+          <input type="text" id="reais" />
+        </section>
+        <section class="seletor-moeda">
+          <label for="">Escolha a moeda para a conversão:</label>
+          <select name="" id="primeira-moeda">
+            <option value="dolar">Dólar (U$)</option>
+            <option value="euro">Euro (€)</option>
+            <option value="libra">Libra Esterlina (£)</option>
+          </select>
+        </section>
+        <button type="button" onclick="converter(event)">Converter</button>
+      </form>
+
+      <section class="resultado">
+        <p>O resultado da conversão é: <strong></strong></p>
+      </section>
+    </main>
+    <script src="skscp.js"></script>
+  </body>
+</html>
